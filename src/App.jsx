@@ -110,7 +110,7 @@ export default function Elementum() {
     left: "17%",
   },
   {
-    img: "https://randomuser.me/api/portraits/women/68.jpg",
+    img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
     size: 100,
     bottom: "70px",
     left: "30%",
