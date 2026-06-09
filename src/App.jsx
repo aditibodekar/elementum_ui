@@ -139,8 +139,8 @@ export default function Elementum() {
     <>
       <style>{`
       @media (max-width: 768px) {
-  h1,  span{
-    color: #111 !important;
+  h1,h2,span{
+    color: #a1979796 !important;
   }
 }
       @media (max-width: 768px) {
