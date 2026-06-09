@@ -138,37 +138,6 @@ export default function Elementum() {
   return (
     <>
       <style>{`
-      @media (max-width: 768px) {
-  h1,h2,span{
-    color: #a1979796 !important;
-  }
-}
-      @media (max-width: 768px) {
-  .section::before,
-  .section::after {
-    display: none !important;
-  }
-}
-      @media (max-width: 768px) {
-  .section div {
-    z-index: auto !important;
-  }
-
-  .section {
-    position: relative;
-  }
-}
-      @media (max-width: 768px) {
-  .section {
-    opacity: 1 !important;
-    transform: none !important;
-  }
-      
-
-  .section * {
-    color: #111 !important;
-  }
-}
         @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Space+Grotesk:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
 
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
