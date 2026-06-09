@@ -99,38 +99,38 @@ export default function Elementum() {
   const heroAvatars = [
   {
     img: "https://randomuser.me/api/portraits/women/44.jpg",
-    size: 150,
-    bottom: "70px",
+    size: 100,
+    bottom: "60px",
     left: "3%",
   },
   {
     img: "https://randomuser.me/api/portraits/men/32.jpg",
-    size: 150,
-    bottom: "160px",
+    size: 100,
+    bottom: "150px",
     left: "17%",
   },
   {
-    img: "https://randomuser.me/api/portraits/women/79.jpg",
-    size: 150,
-    bottom: "90px",
+    img: "https://randomuser.me/api/portraits/women/68.jpg",
+    size: 100,
+    bottom: "70px",
     left: "30%",
   },
   {
     img: "https://randomuser.me/api/portraits/men/45.jpg",
-    size: 150,
-    bottom: "70px",
+    size: 100,
+    bottom: "60px",
     right: "8%",
   },
   {
     img: "https://randomuser.me/api/portraits/women/23.jpg",
-    size: 150,
-    bottom: "170px",
+    size: 100,
+    bottom: "145px",
     right: "21%",
   },
   {
     img: "https://randomuser.me/api/portraits/men/55.jpg",
-    size: 150,
-    bottom: "90px",
+    size: 100,
+    bottom: "55px",
     right: "35%",
   },
 ];
@@ -186,7 +186,7 @@ export default function Elementum() {
           max-width: 1200px;
           margin: 0 auto;
           padding: 0 24px;
-          height: 60px;
+          height: 56px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -201,7 +201,7 @@ export default function Elementum() {
         .nav-link {
           color: #111;
           text-decoration: none;
-          font-size: 25px;
+          font-size: 14px;
           font-weight: 500;
           font-family: 'Space Grotesk', sans-serif;
           transition: color 0.2s;
@@ -437,7 +437,7 @@ export default function Elementum() {
             className="text-lift"
             style={{
               fontFamily: "'Courgette', cursive",
-              fontSize: 35,
+              fontSize: 20,
               fontWeight: 400,
               letterSpacing: "-0.5px",
               color: "#111",
@@ -630,7 +630,7 @@ export default function Elementum() {
         <div
           style={{
             maxWidth: 720,
-marginTop: "-160px",
+marginTop: "-120px",
             width: "100%",
             textAlign: "center",
             padding: "0 20px",
@@ -641,7 +641,7 @@ marginTop: "-160px",
         >
           <h1 style={{
   fontFamily: "'Gerbil', serif",
-  fontSize: "clamp(60px, 10vw, 79px)",
+  fontSize: "clamp(55px, 10vw, 70px)",
   lineHeight: "1.26",
   fontWeight: 400,
   letterSpacing: "0",
@@ -661,9 +661,9 @@ marginTop: "-160px",
           </h1>
           <p
             style={{
-              fontSize: "clamp(15px, 3vw, 17px)",
-              color: "rgb(22, 2, 2)",
-              maxWidth: 500,
+              fontSize: "clamp(13px, 1.6vw, 15px)",
+              color: "#110e0e",
+              maxWidth: 480,
               margin: "0 auto",
               lineHeight: 1.65,
               fontFamily: "'Space Grotesk', sans-serif",
@@ -941,7 +941,7 @@ marginTop: "-160px",
               <p
                 style={{
                   fontSize: "clamp(13px, 1.4vw, 14px)",
-                  color: "#0c0c0c",
+                  color: "#444",
                   lineHeight: 1.8,
                   fontFamily: "'Space Grotesk', sans-serif",
                 }}
