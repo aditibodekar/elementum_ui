@@ -1,0 +1,42 @@
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  position: relative;
+
+  padding: 120px 40px;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.hero-content h1 {
+  font-family: "Instrument Serif", serif;
+  font-size: clamp(50px, 8vw, 90px);
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.hero-content p {
+  margin-top: 25px;
+  color: #666;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.highlight-green {
+  background: #c8f5a0;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.highlight-pink {
+  background: #f5c8e8;
+  padding: 0 10px;
+  border-radius: 10px;
+}

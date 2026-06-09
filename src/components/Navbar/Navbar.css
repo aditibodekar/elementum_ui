@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 60px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Instrument Serif", serif;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.menu-btn {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
